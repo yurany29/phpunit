@@ -56,5 +56,7 @@ class BMICalculatorTest extends TestCase{
 		$result = $BMICalculator->calculate();
 
 		$this->assertEquals($expected,$result);
+
+		$this->assertEquals(BASEURL, 'http://localhost:8000');
 	}
 }
