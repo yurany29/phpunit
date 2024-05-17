@@ -82,6 +82,6 @@ class UsefulAssertionsTest extends TestCase{
 
 	public function testAssertDirectoryIsWritable()
 	{
-		$this->assertFileIsWritable('/phpunit/test/UsefulAssertionsTest.php');
+		$this->assertFileIsWritable('/phpunit/tests/UsefulAssertionsTest.php');
 	}
 }

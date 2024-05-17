@@ -102,4 +102,15 @@ class UserTest extends TestCase{
 
 		$this->assertArrayData($data);
 	}
+
+	public function testSomeOperation()
+	{
+		$user = new User('yurany', 'Henao'); //move to setUp() method and use this-> operator
+
+		$this->assertEquals('ok!', $user->someOperation([1,2,3]));
+
+		$this->assertEquals('error', $user->someOperation([0]));
+
+		$this->assertEquals('ok!', $user->someOperation([1]));
+	}
 }
