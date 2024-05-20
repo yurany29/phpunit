@@ -42,7 +42,7 @@ class ComposerStaticInit4a62d3a5c56e5614bc6122798e246434
         'BMICalculator' => __DIR__ . '/../..' . '/src/BMICalculator.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'CustomAssertionTrait' => __DIR__ . '/../..' . '/test/Traits/CustomAssertionTrait.php',
-        'Database' => __DIR__ . '/../..' . '/src/Exceptions/User.php',
+        'Database' => __DIR__ . '/../..' . '/src/User.php',
         'DatabaseTrait' => __DIR__ . '/../..' . '/test/Traits/DatabaseTrait.php',
         'Logger' => __DIR__ . '/../..' . '/src/Logger.php',
         'PHPUnit\\Exception' => __DIR__ . '/..' . '/phpunit/phpunit/src/Exception.php',
@@ -680,8 +680,14 @@ class ComposerStaticInit4a62d3a5c56e5614bc6122798e246434
         'TheSeer\\Tokenizer\\TokenCollectionException' => __DIR__ . '/..' . '/theseer/tokenizer/src/TokenCollectionException.php',
         'TheSeer\\Tokenizer\\Tokenizer' => __DIR__ . '/..' . '/theseer/tokenizer/src/Tokenizer.php',
         'TheSeer\\Tokenizer\\XMLSerializer' => __DIR__ . '/..' . '/theseer/tokenizer/src/XMLSerializer.php',
-        'User' => __DIR__ . '/../..' . '/src/Exceptions/User.php',
+        'User' => __DIR__ . '/../..' . '/src/User.php',
         'WrongBmiDataException' => __DIR__ . '/../..' . '/src/Exceptions/WrongBmiDataException.php',
+        'forStubMockTesting\\Logger' => __DIR__ . '/../..' . '/src/forStubMockTesting/Logger.php',
+        'forStubMockTesting\\Product' => __DIR__ . '/../..' . '/src/forStubMockTesting/Product.php',
+        'forStubMockTesting\\User' => __DIR__ . '/../..' . '/src/forStubMockTesting/User.php',
+        'forTestingAbstractClassesAndTraits\\Employee' => __DIR__ . '/../..' . '/src/forTestingAbstractClassesAndTraits/Employee.php',
+        'forTestingAbstractClassesAndTraits\\MyTrait' => __DIR__ . '/../..' . '/src/forTestingAbstractClassesAndTraits/MyTrait.php',
+        'forTestingAbstractClassesAndTraits\\PersonAbstract' => __DIR__ . '/../..' . '/src/forTestingAbstractClassesAndTraits/PersonAbstract.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
