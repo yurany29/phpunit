@@ -9,6 +9,7 @@ return array(
     'BMICalculator' => $baseDir . '/src/BMICalculator.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'CustomAssertionTrait' => $baseDir . '/test/Traits/CustomAssertionTrait.php',
+    'CustomSearchEngine' => $baseDir . '/src/CustomSearchEngine.php',
     'Database' => $baseDir . '/src/User.php',
     'DatabaseTrait' => $baseDir . '/test/Traits/DatabaseTrait.php',
     'Logger' => $baseDir . '/src/Logger.php',

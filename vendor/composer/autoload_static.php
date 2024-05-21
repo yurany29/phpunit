@@ -42,6 +42,7 @@ class ComposerStaticInit4a62d3a5c56e5614bc6122798e246434
         'BMICalculator' => __DIR__ . '/../..' . '/src/BMICalculator.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'CustomAssertionTrait' => __DIR__ . '/../..' . '/test/Traits/CustomAssertionTrait.php',
+        'CustomSearchEngine' => __DIR__ . '/../..' . '/src/CustomSearchEngine.php',
         'Database' => __DIR__ . '/../..' . '/src/User.php',
         'DatabaseTrait' => __DIR__ . '/../..' . '/test/Traits/DatabaseTrait.php',
         'Logger' => __DIR__ . '/../..' . '/src/Logger.php',
